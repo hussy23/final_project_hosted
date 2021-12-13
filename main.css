@@ -150,15 +150,12 @@ form.search::after {
     float:right;   
 }
 
-
-
 form.cart a{
   width: 30%;
   padding: 10px 10px;
   background: white;
   color: black;
   cursor: pointer;
-  hover: disabled;
 }
 
 
