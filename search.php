@@ -50,15 +50,15 @@ function filter($query)
                        <a class="active" href="comics.php">comics</a>
                  
                     <div class="dropdown-options">
-                      <a href="MARVEL.php" target="_blank"> MARVEL </a>
-                      <a href="DC.php" target="_blank"> DC</a>
-                      <a href="comicsoffer.php" target="_blank"> Offers</a>
+                      <a href="MARVEL.php" > MARVEL </a>
+                      <a href="DC.php" > DC</a>
+                      <a href="comicsoffer.php" > Offers</a>
                     </div>
                     </div>
-               <a href="reg.php" target="_blank"> Sign Up </a>
-               <a href="login.php" > Login </a>
-               <a href="contact.php" target="_blank">Contact</a>  
-               <a href="feedback.php" target="_blank">Feedback</a> 
+                    
+                    <a href="contact.php">Contact</a>
+                    <a href="aboutus.php"> About us </a>
+                    <a href="feedback.php">Feedback</a>  
                    
              </nav>
         <div class="search-right">
@@ -75,6 +75,10 @@ function filter($query)
           <span class="fa fa-shopping-cart"></span> Cart
            </a>
        </div>
+       <nav class="header-right">
+            <a href="reg.php"> Sign Up </a>
+            <a href="login.php"> Login </a>             
+            </nav>
     </div>
 
 <div class="comics">YOUR SEARCH REVEALED THE FOLLOWING COMICS! </div>
