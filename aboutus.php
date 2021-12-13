@@ -215,9 +215,8 @@ Begin Date - Sept 21 - 2021
                     </div>
                  </div>
             
-
             <div class="image-section">
-                <img src="images/me.PNG">
+                <img src="images/me.png">
             </div>
             
     </div> 
