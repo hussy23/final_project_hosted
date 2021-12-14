@@ -65,20 +65,15 @@ Begin Date - Sept 21 - 2021
 
 .image-section{
     float:right;
-    position: relative;
-    bottom: 600px;
-    right: 16px
+    padding: 40px  40px;    
+    position:relative;
+    height: 0px;
+    bottom:500px;
+    left:0px;
     width:40%;
+    vertical-align:top;
 }
 
-.image-section img{
-    width:100%;
-    top: 70px;
-    right: 16px;
-    height: 555px;
-    
-    
-}
 
 .content .article h3{
     color: #a3a3a3;
@@ -220,6 +215,7 @@ Begin Date - Sept 21 - 2021
             </div>
             
     </div> 
+    
 
     <div class="footer">
  
