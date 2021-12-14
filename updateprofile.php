@@ -20,7 +20,7 @@ Begin Date - Sept 29 - 2021
     
 body {
  
-  background-image: url("images/updateprofile.jpg");
+  background-image: url("images/editprof.jpg");
   
 }
 

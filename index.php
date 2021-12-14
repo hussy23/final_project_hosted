@@ -68,10 +68,10 @@ $db_handle = new DBController();
             <nav class="header-left">
                 <a class="active" href="index.php">Home</a>
                 
-                    <div class="dropdown">
-                         <button class="dropbtn"> comics
-                                <i class="fa fa-caret-down"></i>
-                         </button>
+                <div class="dropdown">
+                    <a href="comics.php"> comics </a> <button class="dropbtn"> 
+                        <i class="fa fa-caret-down"></i></button>
+                                                       
                 
                     <div class="dropdown-options">
                       <a href="MARVEL.php"> MARVEL </a>
