@@ -69,7 +69,6 @@ Begin Date - Sept 21 - 2021
     position:relative;
     height: 0px;
     bottom:500px;
-    left:0px;
     width:40%;
     vertical-align:top;
 }
