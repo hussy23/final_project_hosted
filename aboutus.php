@@ -139,8 +139,8 @@ Begin Date - Sept 21 - 2021
                     </div>
                
                <a href="contact.php">Contact</a>
-               <a class="active" href="aboutus.php" > About us </a>
-               <a href="feedback.php" >Feedback</a>   
+               <a class="active" href="aboutus.php"><b> About us </a></b>
+               <a href="feedback.php">Feedback</a>   
                    
              </nav>
              <div class="search-right">

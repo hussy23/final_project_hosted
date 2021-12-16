@@ -66,7 +66,7 @@ $db_handle = new DBController();
         <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
   
             <nav class="header-left">
-                <a class="active" href="index.php">Home</a>
+                <a class="active" href="index.php"><b>Home</a></b>
                 
                 <div class="dropdown">
                     <a href="comics.php"> comics </a> <button class="dropbtn"> 

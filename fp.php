@@ -86,8 +86,24 @@ input[type=text]:focus {
                 <div class="forgotpassdetails">
                     <b>Enter Your Registered Email </b> <input type="email" name="email" placeholder="Email" required> 
                     <button type="submit" class="sendbtn" value ="send"> SEND </button>
+                    <a href="login.php" button type="submit"  class="sendbtn" value ="Back" > BACK </a></button>
                 </div>
             </form>
        </div>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/614a223925797d7a890022a1/1fg4pbckd';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
     </body>
 </html>

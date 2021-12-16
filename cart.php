@@ -79,13 +79,13 @@ switch($_GET["action"]) {
                 
                <a href="contact.php">Contact</a>
                <a href="aboutus.php" > About us </a>
-               <a class="active" href="feedback.php" >Feedback</a>  
+               <a href="feedback.php" >Feedback</a>  
                    
              </nav>
              
         <div class="cart-right">
             <a class="active" href="cart.php" >
-          <span class="fa fa-shopping-cart"></span> Your Cart
+          <span class="fa fa-shopping-cart"></span><b> Your Cart</b>
         </a>
              </div>
 
@@ -172,6 +172,11 @@ if(isset($_SESSION["cart_item"])){
     <a href="index.php">
     <i class="fa fa-arrow-circle-left"> Continue Shopping  </i></a> 
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
 
  <div class="footer">
         <div class="footer-left">
@@ -179,8 +184,7 @@ if(isset($_SESSION["cart_item"])){
         <a href="https://www.google.com/maps/d/edit?mid=1HqXfCxWrmokna6IfjvKOA2PTFogndeJ1&usp=sharing" target="_blank"><i class="fa fa-map-marker" style=" font-size:15px"> </i> No. 7 Ridgewayplace, Colombo 04 <br> </a>
             <i class="fa fa-phone-square" style=" font-size:15px"> </i> 011-123-1234 <br> 
             <i class="fa fa-mobile" style="font-size:20px"></i> 0771234567 <br>
-            <i class="fa fa-envelope" style=" font-size:15px"> </i> dc.vs.marvel000@gmail.com
-        </div>
+            <a href="mailto:dc.vs.marvel000@gmail.com" target="_blank">  <i class="fa fa-envelope" style=" font-size:15px"></i> dc.vs.marvel000@gmail.com  </a>        </div>
         
         <div class="footer-center">
         <a href="https://www.facebook.com/TheMarvelvsDc/" target="_blank"><i class="fa fa-facebook-official" style="color:blue; font-size:40px"></i></a> 

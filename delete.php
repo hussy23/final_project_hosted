@@ -89,7 +89,51 @@ h1{
 </style>
 </head>
     <body>
-      
+    <div class="header">
+        <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+  
+            <nav class="header-left">
+                <a class="active" href="index.php">Home</a>
+                
+                <div class="dropdown">
+                    <a href="comics.php"> comics </a> <button class="dropbtn"> 
+                        <i class="fa fa-caret-down"></i></button>
+                                                       
+                
+                    <div class="dropdown-options">
+                      <a href="MARVEL.php"> MARVEL </a>
+                      <a href="DC.php"> DC</a>
+                      <a href="comicsoffer.php"> Offers</a>
+                    </div> 
+                    </div>
+               
+               <a href="contact.php">Contact</a>
+               <a href="aboutus.php" > About us </a>
+               <a href="feedback.php">Feedback</a>  
+                   
+             </nav>
+             <div class="search-right">
+                <form class="search" method="POST" action="search.php" style=" margin:auto">
+                    <input type="text" placeholder="Whats on your mind?? " name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                
+                </form>
+                 
+             </div>
+             
+        <div class="cart-right">
+            <a href="cart.php" >
+             <span class="fa fa-shopping-cart"></span> Your Cart
+            </a>
+        </div>
+
+        <nav class="header-right">
+        <a href="reg.php"> Sign Up </a>
+        <a href="login.php"> Login</a>
+        </nav>
+             
+    </div>  
+
        <div class="delete">
            <br>
            <img src="images/LOGIN.png"> 
@@ -122,5 +166,21 @@ h1{
        </div>
     </body>
     
-          
-</html>
+    </html>  
+
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/614a223925797d7a890022a1/1fg4pbckd';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</php>
