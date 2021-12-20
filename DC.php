@@ -8,7 +8,7 @@ session_start();
 require_once("dbcontroller.php");
 $db_handle = new DBController();
 ?>
-<HTML>
+<html lang="en">
 <HEAD>
     <meta charset="UTF-8">
     <meta name="viewport" content="width =device-width, initial-scale=1">
