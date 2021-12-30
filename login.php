@@ -41,7 +41,7 @@ Begin Date - Sept 21 - 2021
                     </div>
                
                <a href="contact.php">Contact</a>
-               <a href="aboutus.php" > About us </a>
+               <a href="aboutus.php" >About</a>
                <a href="feedback.php" >Feedback</a> 
                    
              </nav>
@@ -60,8 +60,8 @@ Begin Date - Sept 21 - 2021
             </a>
         </div>
         <nav class="header-right">
-            <a href="reg.php" > Sign Up </a>
-            <a class="active" href="login.php"><b> Login </a></b>             
+            <a href="reg.php" >Sign Up</a>
+            <a class="active" href="login.php"><b>Login</a></b>             
             </nav>
     </div>
 

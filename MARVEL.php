@@ -39,7 +39,7 @@ $db_handle = new DBController();
                     </div>
                
                <a href="contact.php" >Contact</a>
-               <a href="aboutus.php"> About us</a>
+               <a href="aboutus.php">About</a>
                <a href="feedback.php" >Feedback</a>   
                    
              </nav>
@@ -57,8 +57,8 @@ $db_handle = new DBController();
         </div>
 
         <nav class="header-right">
-            <a href="reg.php" > Sign Up </a>
-            <a href="login.php" > Login </a>             
+            <a href="reg.php" >Sign Up</a>
+            <a href="login.php" >Login</a>             
             </nav>
     </div>
 

@@ -112,7 +112,7 @@ h2{
                     </div>
                
                <a class="active" href="contact.php"><b>Contact</a></b>
-               <a href="aboutus.php" > About us </a>
+               <a href="aboutus.php" >About</a>
                <a href="feedback.php" >Feedback</a>   
                    
              </nav>
@@ -131,8 +131,8 @@ h2{
        </div>
 
        <nav class="header-right">
-            <a href="reg.php" > Sign Up </a>
-            <a href="login.php" > Login </a>             
+            <a href="reg.php" >Sign Up</a>
+            <a href="login.php" >Login</a>             
             </nav>
     </div>
 

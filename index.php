@@ -75,13 +75,13 @@ $db_handle = new DBController();
                       <a href="DC.php"> DC</a>
                       <a href="comicsoffer.php"> Offers</a>
                     </div> 
-                    </div>
+                </div>
                
                <a href="contact.php">Contact</a>
-               <a href="aboutus.php" > About us </a>
+               <a href="aboutus.php" >About</a>
                <a href="feedback.php">Feedback</a>  
                    
-             </nav>
+            </nav>
              <div class="search-right">
                 <form class="search" method="POST" action="search.php" style=" margin:auto">
                     <input type="text" placeholder="Whats on your mind?? " name="search">
@@ -98,8 +98,8 @@ $db_handle = new DBController();
         </div>
 
         <nav class="header-right">
-        <a href="reg.php"> Sign Up </a>
-        <a href="login.php"> Login</a>
+        <a href="reg.php">Sign Up</a>
+        <a href="login.php">Login</a>
         </nav>
              
     </div>
