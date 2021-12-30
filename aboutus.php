@@ -3,8 +3,6 @@ Code Initiator - Hussain Moulana
 Begin Date - Sept 21 - 2021
 >
 <HEAD>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width =device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" type="text/css" href="style.css">

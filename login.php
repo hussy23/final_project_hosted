@@ -9,8 +9,6 @@ Begin Date - Sept 21 - 2021
 
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width =device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title> DC vs MARVEL - Login </title>
@@ -19,7 +17,7 @@ Begin Date - Sept 21 - 2021
 	margin: 0 auto;
 	background-image: url("images/PAGE 1.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 890px;
+	background-size: 100% 1000px;
       }
 </style>
 
@@ -84,6 +82,7 @@ h1{
        margin: 0 auto;
        background-color: grey ;
        margin-top: 40px;
+       
 }
 
 .login img{
@@ -124,7 +123,6 @@ input[type=text]:focus, input[type=password]:focus, input [type=email]:focus {
   background-color: lightgray;
   outline: none;
 }
-
 
 </style>
 </head>

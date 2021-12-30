@@ -12,8 +12,6 @@ $db_handle = new DBController();
 <!DOCTYPE php>
 <php>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width =device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="incdec.css">
@@ -24,7 +22,7 @@ $db_handle = new DBController();
 <style>
      body {
          background-image: url("images/MAIN PAGE.jpg");
-	     background-size: 100% 1400px;
+	     background-size: 100% 1000px;
          
         } 
         h4 {
@@ -32,7 +30,7 @@ $db_handle = new DBController();
             font-size:30px;
             font-weight:bold; 
             background-color: BLACK;
-            opacity:0.9;
+            opacity:1.9;
             background-size:cover;
             color:white;
         }
@@ -47,13 +45,12 @@ $db_handle = new DBController();
             text-align:center;
             font-size:30px;
             font-weight:bold; 
-             background-color: hsla(0, 9%, 96%, 0.74);
             overflow: hidden;
-            border-style: solid;
             opacity:0.9;
             background-size:cover;
             margin:5px;
             margin-bottom:8px;
+            color:white;
        }
              
 </style>

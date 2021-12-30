@@ -6,8 +6,6 @@ Begin Date - Sept 22 - 2021
 <!DOCTYPE php>
 <php>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width =device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="incdec.css">

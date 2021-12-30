@@ -3,7 +3,7 @@ Code Initiator - Hussain Moulana
 Begin Date - Sept 21 - 2021
  */
 
-body {
+ body {
 	font-family: Arial;
 	color: #211a1a;
 	font-size: 0.9em;
@@ -13,7 +13,7 @@ body {
 #product-grid {
 	margin-top:10px;
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns:1fr 1fr 1fr 1fr;
         grid-gap: 10px; 
         
 }
@@ -38,7 +38,9 @@ body {
 	float: left;
 	background: #ffffff86;
 	margin: 20px 20px 2px 4px;
-	border: black 2px solid;
+	border-style: outset;
+        border-width: 2px;
+        border-radius:8px;
        
 }
 
