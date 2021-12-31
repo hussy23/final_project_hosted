@@ -49,6 +49,8 @@ switch($_GET["action"]) {
 }
 ?>
 <!DOCTYPE php>
+<!DOCTYPE html>
+<html lang="en">
 <php>
 <head>
 <link rel="stylesheet" href="main.css">
@@ -395,19 +397,9 @@ if(isset($_SESSION["cart_item"])){
           </div>
         </form> 
       
- 
- <script>
-     function mycheckout() { 
-         alert("Your order has been received. Check your email to receive your order ID");
-     }
-     {
-    $fname = $_POST['fname'];
-    $comicname = $_POST['comicname'];
-    $price = $_POST['price'];
-    $carddetails = $_POST['carddetails'];
-    $billingaddress = $_POST['billingaddress'];
-    }
- </script>
+        <form action="checkout.php" method="POST">
+                            </form>
+     
     
  <div class="footer">
         <div class="footer-left">

@@ -29,6 +29,7 @@ Begin Date - Sept 30 - 2021
 
             echo '<script> alert ("Your order has been received. Check your email to receive your order ID" );window.location="index.php"; </script>';
      } 
+     
      $sql->close();
      $connection->close();
  die();

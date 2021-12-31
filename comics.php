@@ -8,8 +8,8 @@ session_start();
 require_once("dbcontroller.php");
 $db_handle = new DBController();
 ?>
-
-<HTML>
+<!DOCTYPE html>
+<html lang="en">
 <HEAD>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.css">
@@ -134,4 +134,4 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 </BODY>
-</HTML>
+</html>

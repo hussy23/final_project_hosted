@@ -49,7 +49,8 @@ switch($_GET["action"]) {
 }
 }
 ?>
-<HTML>
+<!DOCTYPE html>
+<html lang="en">
 <HEAD>
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="main.css">
@@ -223,4 +224,4 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 
 </BODY>
-</HTML>
+</html>

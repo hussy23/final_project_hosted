@@ -4,7 +4,7 @@ Begin Date - Sept 22 - 2021
 >
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="style.css">

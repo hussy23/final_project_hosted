@@ -5,7 +5,7 @@ Begin Date - Sept 21 - 2021
 
 <?php include('database.php') ?>
 <!DOCTYPE php>
-<html>
+<html lang="en">
 <head>
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="style.css">

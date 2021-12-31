@@ -5,7 +5,7 @@ Begin Date - Sept 22 - 2021
 
 <!DOCTYPE php>
 
-<html>
+<html lang="en">
     <head>
         <title>DC vs MARVEL</title>
 <style>
