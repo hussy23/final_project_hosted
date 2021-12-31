@@ -109,12 +109,12 @@ if(isset($_SESSION["cart_item"])){
 <tbody>
 <tr>
 
-<th style="text-align:Center;">Type</th>
-<th style="text-align:Center;">Code</th>
-<th style="text-align:Center;" width="5%">Quantity</th>
-<th style="text-align:Center;" width="10%">Unit Price</th>
-<th style="text-align:center;" width="10%">Price</th>
-<th style="text-align:center;" width="10%">Remove</th>
+<th style scope="text-align:Center;">Type</th>
+<th style scope="text-align:Center;">Code</th>
+<th style scope="text-align:Center;" width="5%">Quantity</th>
+<th style scope="text-align:Center;" width="10%">Unit Price</th>
+<th style scope="text-align:center;" width="10%">Price</th>
+<th style scope="text-align:center;" width="10%">Remove</th>
 </tr>	
 <?php	
          
