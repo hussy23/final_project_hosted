@@ -284,9 +284,9 @@ if(isset($_SESSION["cart_item"])){
 <caption>comics</caption>
 <tbody>
 <tr>
-<th style="text-align:left; text-decoration:underline; font-size:25px">Name</th>
-<th style="text-align:center; text-decoration:underline; font-size:25px" width="10%">Quantity</th>
-<th style="text-align:right; text-decoration:underline; font-size:25px" width="20%">Price</th>
+<th style scope="text-align:left; text-decoration:underline; font-size:25px">Name</th>
+<th style scope="text-align:center; text-decoration:underline; font-size:25px" width="10%">Quantity</th>
+<th style scope="text-align:right; text-decoration:underline; font-size:25px" width="20%">Price</th>
 </tr>	
 <?php		
     foreach ($_SESSION["cart_item"] as $item){
