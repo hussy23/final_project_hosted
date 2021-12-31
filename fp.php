@@ -76,13 +76,13 @@ input[type=text]:focus {
     <body>
         
          <div class="forgotpass">
-           <img src="images/LOGIN.png" alt="image"> <br>
+           <img src="images/LOGIN.png"> <br>
            <h1> RESET USERNAME/PASSWORD </h1>
            WE WILL SEND YOU INSTRUCTIONS TO RESET YOUR USERNAME/PASSWORD <br> <br>
             <form action="fpemail.php" method="POST">
                 
                 <div class="forgotpassdetails">
-                <strong>Enter Your Registered Email </strong> <input type="email" name="email" placeholder="Email" required> 
+                    <b>Enter Your Registered Email </b> <input type="email" name="email" placeholder="Email" required> 
                     <button type="submit" class="sendbtn" value ="send"> SEND </button>
                     <a href="login.php" button type="submit"  class="sendbtn" value ="Back" > BACK </a></button>
                 </div>

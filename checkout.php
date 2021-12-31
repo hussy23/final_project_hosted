@@ -4,14 +4,12 @@ Begin Date - Sept 30 - 2021
 >
 
 <?php
-{
-    <?php
     $fname = $_POST['fname'];
     $comicname = $_POST['comicname'];
     $price = $_POST['price'];
     $carddetails = $_POST['carddetails'];
     $billingaddress = $_POST['billingaddress'];
-if ( !empty($fname)  !empty($comicname)  !empty($price)  !empty($carddetails) !empty($billingaddress) ){
+    if ( !empty($fname) || !empty($comicname) || !empty($price) || !empty($carddetails) || !empty($billingaddress) ){
         $hostname="us-cdbr-east-04.cleardb.com";
         $username="b8f5fe66220704";
         $password="5b7f8b7c";

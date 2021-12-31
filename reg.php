@@ -5,8 +5,7 @@ Begin Date - Sept 21 - 2021
 
 <?php include('database.php') ?>
 <!DOCTYPE php>
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="style.css">
@@ -100,13 +99,13 @@ a {
 </html>
 <body>
     <div class="header">
-    <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
+    <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
   
             <nav class="header-left">
                 <a href="index.php" >Home</a>
                 <div class="dropdown">
                     <a href="comics.php"> comics </a> <button class="dropbtn"> 
-                        <em class="fa fa-caret-down"></em></button>
+                        <i class="fa fa-caret-down"></i></button>
                 
                     <div class="dropdown-options">
                       <a href="MARVEL.php" > MARVEL </a>
@@ -116,14 +115,14 @@ a {
                     </div>
 
                <a href="contact.php">Contact</a>
-               <a href="aboutus.php" >About</a>
+               <a href="aboutus.php" > About us </a>
                <a href="feedback.php" >Feedback</a>  
                    
              </nav>
   
              <nav class="header-right">
-            <a class="active" href="reg.php" > <strong>Sign Up</a></strong>
-            <a href="login.php" >Login</a>             
+            <a class="active" href="reg.php" > <b>Sign Up </a></b>
+            <a href="login.php" > Login </a>             
             </nav>
     </div>
    
@@ -138,23 +137,23 @@ a {
                      <em>Already have an account? Click <a href="login.php"> Login </a> </em>
                  </div>
         <hr>
-        <strong>Create Username </strong>
+        <b>Create Username </b>
         <input type="text" name="username" value="<?php echo $username; ?>" required>
         
-        <strong>First Name</strong>
+            <b>First Name</b>
             <input type="text" name="fname" value="<?php echo $fname; ?>" required>
             
-            <strong>Last Name</strong>
+             <b>Last Name</b>
             <input type="text" name="lname" value="<?php echo $lname; ?>" required>
             
-            <strong>Email</strong>
+            <b>Email</b>
            <input type="email" name="email" value="<?php echo $email; ?>" required>
             
 
-           <strong>Password</strong>
+            <b>Password</b>
             <input type="password" placeholder="Enter Password" name="password_1" id="psw" required>
 
-            <strong>Re-Enter Password</strong>
+            <b>Re-Enter Password</b>
             <input type="password" placeholder="Confirm Password" name="password_2" id="cpsw" required>
             
         <hr>
@@ -185,16 +184,16 @@ confirm_password.onkeyup = validatePassword;
         <div class="footer">
         <div class="footer-left">
                 
-            <a href="https://www.google.com/maps/d/edit?mid=1HqXfCxWrmokna6IfjvKOA2PTFogndeJ1&usp=sharing" target="_blank"><em class="fa fa-map-marker" style=" font-size:15px"> </em> No. 7 Ridgewayplace, Colombo 04 <br> </a>
-            <em class="fa fa-phone-square" style=" font-size:15px"> </em> 011-123-1234 <br>
-            <em class="fa fa-mobile" style="font-size:20px"></em> 0771234567 <br>
-            <a href="mailto:dc.vs.marvel000@gmail.com" target="_blank">  <em class="fa fa-envelope" style=" font-size:15px"></em> dc.vs.marvel000@gmail.com  </a> 
+            <a href="https://www.google.com/maps/d/edit?mid=1HqXfCxWrmokna6IfjvKOA2PTFogndeJ1&usp=sharing" target="_blank"><i class="fa fa-map-marker" style=" font-size:15px"> </i> No. 7 Ridgewayplace, Colombo 04 <br> </a>
+            <i class="fa fa-phone-square" style=" font-size:15px"> </i> 011-123-1234 <br>
+            <i class="fa fa-mobile" style="font-size:20px"></i> 0771234567 <br>
+            <a href="mailto:dc.vs.marvel000@gmail.com" target="_blank">  <i class="fa fa-envelope" style=" font-size:15px"></i> dc.vs.marvel000@gmail.com  </a> 
         </div>
         
         <div class="footer-center">
-            <a href="https://www.facebook.com/TheMarvelvsDc/" target="_blank"><em class="fa fa-facebook-official" style="color:blue; font-size:40px"></em></a> 
-            <a href="https://www.instagram.com/themarvelvsdc/?hl=en" target="_blank"> <em class="fa fa-instagram" style="color:magenta; font-size:40px"></em> </a> 
-            <a href="https://twitter.com/TheMarvelvsDC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><em class="fa fa-twitter-square" style="color:#00acee; font-size:40px" ></em> </a>  
+            <a href="https://www.facebook.com/TheMarvelvsDc/" target="_blank"><i class="fa fa-facebook-official" style="color:blue; font-size:40px"></i></a> 
+            <a href="https://www.instagram.com/themarvelvsdc/?hl=en" target="_blank"> <i class="fa fa-instagram" style="color:magenta; font-size:40px"></i> </a> 
+            <a href="https://twitter.com/TheMarvelvsDC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter-square" style="color:#00acee; font-size:40px" ></i> </a>  
             </a>  <br>
              &copy;2021-2025 copyright by DC vs MARVEL<br>
              all rights reserved.<br>
@@ -204,10 +203,10 @@ confirm_password.onkeyup = validatePassword;
         <div class="footer-right">
             
             <H6> PAYMENT METHODS </H6>
-            <a href="https://www.visa.com.lk/pay-with-visa/contactless-payments/contactless-payments.html" target="_blank"> <em class="fa fa-cc-visa" style=" font-size:50px; color:navy;"></em></a>
-            <a href="https://src.mastercard.com/profile/enroll" target="_blank"><em class="fa fa-cc-mastercard"  style=" font-size:50px; color:red"></em></a>
-            <a href="https://www.paypal.com/lk/webapps/mpp/pay-online" target="_blank"> <em class="fa fa-cc-paypal"  style=" font-size:50px; color:darkslateblue"></em></a> <br> <br>
-            <em class="fa fa-motorcycle" style=" font-size:20px"> Free Delivery Island-wide!</em> <br>
+            <a href="https://www.visa.com.lk/pay-with-visa/contactless-payments/contactless-payments.html" target="_blank"> <i class="fa fa-cc-visa" style=" font-size:50px; color:navy;"></i></a>
+            <a href="https://src.mastercard.com/profile/enroll" target="_blank"><i class="fa fa-cc-mastercard"  style=" font-size:50px; color:red"></i></a>
+            <a href="https://www.paypal.com/lk/webapps/mpp/pay-online" target="_blank"> <i class="fa fa-cc-paypal"  style=" font-size:50px; color:darkslateblue"></i></a> <br> <br>
+            <i class="fa fa-motorcycle" style=" font-size:20px"> Free Delivery Island-wide!</i> <br>
            
         </div>
         

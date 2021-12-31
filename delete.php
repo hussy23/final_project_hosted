@@ -88,14 +88,14 @@ h1{
 </head>
     <body>
     <div class="header">
-        <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
+        <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
   
             <nav class="header-left">
                 <a class="active" href="index.php">Home</a>
                 
                 <div class="dropdown">
                     <a href="comics.php"> comics </a> <button class="dropbtn"> 
-                        <em class="fa fa-caret-down"></em></button>
+                        <i class="fa fa-caret-down"></i></button>
                                                        
                 
                     <div class="dropdown-options">
@@ -106,14 +106,14 @@ h1{
                     </div>
                
                <a href="contact.php">Contact</a>
-               <a href="aboutus.php" >About</a>
+               <a href="aboutus.php" > About us </a>
                <a href="feedback.php">Feedback</a>  
                    
              </nav>
              <div class="search-right">
                 <form class="search" method="POST" action="search.php" style=" margin:auto">
                     <input type="text" placeholder="Whats on your mind?? " name="search">
-                    <button type="submit"><em class="fa fa-search"></em></button>
+                    <button type="submit"><i class="fa fa-search"></i></button>
                 
                 </form>
                  
@@ -126,15 +126,15 @@ h1{
         </div>
 
         <nav class="header-right">
-        <a href="reg.php">Sign Up</a>
-        <a href="login.php">Login</a>
+        <a href="reg.php"> Sign Up </a>
+        <a href="login.php"> Login</a>
         </nav>
              
     </div>  
 
        <div class="delete">
            <br>
-           <img src="images/LOGIN.png" alt="image"> 
+           <img src="images/LOGIN.png"> 
            <h1> DELETE ACCOUNT </h1>
           
             <form action="delete.php" method="POST">
