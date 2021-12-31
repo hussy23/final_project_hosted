@@ -172,23 +172,23 @@ a {
                         }    
                         ?>
            
-            <b>Username</b>
+            <strong>Username</b>
             <input type="text" name="username" value="<?php echo $_SESSION['username'];?>">
                                 
-            <b>First Name</b>
+            <strong>First Name</b>
             <input type="text" name="fname">
       
-            <b>Last Name</b>
+            <strong>Last Name</b>
             <input type="text" name="lname" >
 
-            <b>Password</b>
+            <strong>Password</b>
             <input type="password" placeholder="Enter Password" name="oldpassword" id="opsw" >
              
-            <b> New Password</b>
+            <strong> New Password</b>
             <input type="password" placeholder="Enter New Password" name="password" id="psw" >
 
 
-            <b>Re-Enter New Password</b>
+            <strong>Re-Enter New Password</b>
             <input type="password" placeholder="Confirm Password" name="pswrd-confirm" id="cpsw">
             
         <hr>

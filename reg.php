@@ -121,7 +121,7 @@ a {
              </nav>
   
              <nav class="header-right">
-            <a class="active" href="reg.php" > <b>Sign Up </a></b>
+            <a class="active" href="reg.php" > <strong>Sign Up </a></b>
             <a href="login.php" > Login </a>             
             </nav>
     </div>
@@ -137,23 +137,23 @@ a {
                      <em>Already have an account? Click <a href="login.php"> Login </a> </em>
                  </div>
         <hr>
-        <b>Create Username </b>
+        <strong>Create Username </b>
         <input type="text" name="username" value="<?php echo $username; ?>" required>
         
-            <b>First Name</b>
+            <strong>First Name</b>
             <input type="text" name="fname" value="<?php echo $fname; ?>" required>
             
-             <b>Last Name</b>
+             <strong>Last Name</b>
             <input type="text" name="lname" value="<?php echo $lname; ?>" required>
             
-            <b>Email</b>
+            <strong>Email</b>
            <input type="email" name="email" value="<?php echo $email; ?>" required>
             
 
-            <b>Password</b>
+            <strong>Password</b>
             <input type="password" placeholder="Enter Password" name="password_1" id="psw" required>
 
-            <b>Re-Enter Password</b>
+            <strong>Re-Enter Password</b>
             <input type="password" placeholder="Confirm Password" name="password_2" id="cpsw" required>
             
         <hr>

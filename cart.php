@@ -83,7 +83,7 @@ switch($_GET["action"]) {
              
         <div class="cart-right">
             <a class="active" href="cart.php" >
-          <span class="fa fa-shopping-cart"></span><b> Your Cart</b>
+          <span class="fa fa-shopping-cart"></span><strong> Your Cart</b>
         </a>
              </div>
 

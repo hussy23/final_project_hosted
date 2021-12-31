@@ -111,7 +111,7 @@ h2{
                     </div> 
                     </div>
                
-               <a class="active" href="contact.php"><b>Contact</a></b>
+               <a class="active" href="contact.php"><strong>Contact</a></b>
                <a href="aboutus.php" > About </a>
                <a href="feedback.php" >Feedback</a>   
                    

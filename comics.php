@@ -24,7 +24,7 @@ $db_handle = new DBController();
              <nav class="header-left">
                 <a  href="index.php">Home</a>
                 <div class="dropdown">
-                       <a class="active" href="comics.php"><b>comics</a></b>
+                       <a class="active" href="comics.php"><strong>comics</a></b>
                  
                     <div class="dropdown-options">
                       <a href="MARVEL.php" > MARVEL </a>
