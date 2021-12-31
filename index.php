@@ -10,6 +10,7 @@ require_once("dbcontroller.php");
 $db_handle = new DBController();
 ?>
 <!DOCTYPE php>
+<link href="images/Logo 2.jpg" rel="short icon" type="image/jpg"/>
 <php>
 <head>
 <link rel="stylesheet" href="main.css">
@@ -18,7 +19,7 @@ $db_handle = new DBController();
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title> DC vs MARVEL </title>
-<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+
 <style>
      body {
          background-image: url("images/MAIN PAGE.jpg");

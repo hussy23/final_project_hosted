@@ -19,5 +19,4 @@ try {
 } catch (Exception $e) {
     echo 'Exception when calling SmsApi->sendSMS: ', $e->getMessage(), PHP_EOL;
 }
-
 ?>

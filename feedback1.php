@@ -32,6 +32,3 @@ if ( !empty($Email) || !empty($Feedback) ){
  die();
 }
 ?>
-
-
- 

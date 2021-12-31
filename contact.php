@@ -2,7 +2,7 @@
 Code Initiator - Hussain Moulana
 Begin Date - Sept 22 - 2021
 >
-
+<link href="images/Logo 2.jpg" rel="short icon" type="image/jpg"/>
 <!DOCTYPE html>
 <html lang="en">
 <head>

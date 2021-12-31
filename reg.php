@@ -2,7 +2,7 @@
 Code Initiator - Hussain Moulana
 Begin Date - Sept 21 - 2021
 >
-
+<link href="images/Logo 2.jpg" rel="short icon" type="image/jpg"/>
 <?php include('database.php') ?>
 <!DOCTYPE php>
 <html lang="en">

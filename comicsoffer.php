@@ -2,6 +2,7 @@
 Code Initiator - Hussain Moulana
 Begin Date - Sept 23 - 2021
 >
+<link href="images/Logo 2.jpg" rel="short icon" type="image/jpg"/>
 <?php
 session_start();
 require_once("dbcontroller.php");

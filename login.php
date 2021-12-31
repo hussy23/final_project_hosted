@@ -2,7 +2,7 @@
 Code Initiator - Hussain Moulana
 Begin Date - Sept 21 - 2021
 >
-
+<link href="images/Logo 2.jpg" rel="short icon" type="image/jpg"/>
 <?php include('database.php') ?>
 
 <!DOCTYPE php>
@@ -191,7 +191,5 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
-</body>
-    
-          
+</body>    
 </php>

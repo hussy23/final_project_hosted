@@ -2,7 +2,7 @@
 Code Initiator - Hussain Moulana
 Begin Date - Sept 29 - 2021
 >
-
+<link href="images/Logo 2.jpg" rel="short icon" type="image/jpg"/>
 <?php
  include('database.php');
  
@@ -398,6 +398,18 @@ if(isset($_SESSION["cart_item"])){
         </form> 
       
         <form action="checkout.php" method="POST">
+        <script>
+     function mycheckout() { 
+         alert("Your order has been received. Check your email to receive your order ID");
+     }
+     {
+    $fname = $_POST['fname'];
+    $comicname = $_POST['comicname'];
+    $price = $_POST['price'];
+    $carddetails = $_POST['carddetails'];
+    $billingaddress = $_POST['billingaddress'];
+    }
+ </script>
                             </form>
      
     

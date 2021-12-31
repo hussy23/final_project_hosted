@@ -78,5 +78,4 @@ if (isset($_POST['login_user'])) {
 //	$_SESSION['message'] = "Address updated!"; 
 //	header('location: index.php');
 //}
-
 ?>
