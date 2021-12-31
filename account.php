@@ -279,6 +279,7 @@ if(isset($_SESSION["cart_item"])){
         <br></h2>
 
 <table class="cartt" cellpadding="4" cellspacing="2">
+<caption>comics</caption>
 <tbody>
 <tr>
 <th style="text-align:left; text-decoration:underline; font-size:25px">Name</th>
