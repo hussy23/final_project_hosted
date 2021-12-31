@@ -249,7 +249,7 @@ input[type=text]:focus, input[type=password]:focus, input [type=email]:focus {
     </div>
           
       <?php  if (isset($_SESSION['username'])) : ?>
-    	 <strong><b><?php echo $_SESSION['username']; ?>, Welcome To Your DC vs MARVEL Account! </strong></b>
+    	 <strong><strong><?php echo $_SESSION['username']; ?>, Welcome To Your DC vs MARVEL Account! </strong></strong>
     
         <div class="search-right"> 
             

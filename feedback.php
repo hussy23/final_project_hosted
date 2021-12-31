@@ -96,7 +96,7 @@ textarea {
                
                <a href="contact.php">Contact</a>
                <a href="aboutus.php" >About</a>
-               <a class="active" href="feedback.php"><b>Feedback</a></b>   
+               <a class="active" href="feedback.php"><strong>Feedback</a></strong>  
                    
              </nav>
              <div class="search-right">

@@ -61,7 +61,7 @@ Begin Date - Sept 21 - 2021
         </div>
         <nav class="header-right">
             <a href="reg.php" >Sign Up</a>
-            <a class="active" href="login.php"><b>Login</a></b>             
+            <a class="active" href="login.php"><strong>Login</a></strong>            
             </nav>
     </div>
 
@@ -136,8 +136,8 @@ input[type=text]:focus, input[type=password]:focus, input [type=email]:focus {
                 <?php include('errors.php'); ?>
                 <div class="logdetail">
                   <input type="hidden" name="id" value="<?php echo $id; ?>">
-                  <b>Username </b> <input type="text" name="username" placeholder="Enter username" required >
-                    <b>Password </b> <input type="password" name="password" placeholder="Enter password" required>
+                  <strong>Username </strong> <input type="text" name="username" placeholder="Enter username" required >
+                  <strong>Password </strong> <input type="password" name="password" placeholder="Enter password" required>
            
                      <button type="submit" class="loginbtn" value ="login" name="login_user">  Login </button> 
                      <i class="fa fa-question-circle" aria-hidden="true">  <a href="fp.php" > Forgot Username/Password </a></i>
