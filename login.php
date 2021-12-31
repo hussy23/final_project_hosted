@@ -6,8 +6,8 @@ Begin Date - Sept 21 - 2021
 <?php include('database.php') ?>
 
 <!DOCTYPE php>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -192,6 +192,6 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 </body>
-    
+</html>
           
 </php>
