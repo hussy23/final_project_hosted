@@ -95,7 +95,7 @@ h1{
                 
                 <div class="dropdown">
                     <a href="comics.php"> comics </a> <button class="dropbtn"> 
-                        <i class="fa fa-caret-down"></i></button>
+                        <em class="fa fa-caret-down"></em></button>
                                                        
                 
                     <div class="dropdown-options">
@@ -113,7 +113,7 @@ h1{
              <div class="search-right">
                 <form class="search" method="POST" action="search.php" style=" margin:auto">
                     <input type="text" placeholder="Whats on your mind?? " name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <button type="submit"><em class="fa fa-search"></em></button>
                 
                 </form>
                  
