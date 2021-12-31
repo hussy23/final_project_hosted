@@ -60,7 +60,7 @@ $db_handle = new DBController();
 <body>
  
     <div class="header">
-        <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+        <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
             <nav class="header-left">
                 <a class="active" href="index.php"><b>Home</a></b>
@@ -78,7 +78,7 @@ $db_handle = new DBController();
                     </div>
                
                <a href="contact.php">Contact</a>
-               <a href="aboutus.php" > About us </a>
+               <a href="aboutus.php" > About </a>
                <a href="feedback.php">Feedback</a>  
                    
              </nav>
@@ -109,23 +109,23 @@ $db_handle = new DBController();
 <div class="slideshow">
     <h4>Special Offers and Discounts!</h4>
         <div class="fade">
-            <img src="images/DISCOUNTS.jpg">
+            <img src="images/DISCOUNTS.jpg" alt="image">
         </div> 
         
         <div class="fade">
-            <img src="images/SLIDESHOW1.PNG" >
+            <img src="images/SLIDESHOW1.PNG" alt="image" >
         </div>
     
         <div class="fade">
-            <img src="images/SLIDESHOW2.PNG">
+            <img src="images/SLIDESHOW2.PNG" alt="image">
         </div>
     
         <div class="fade">
-            <img src="images/SLIDESHOW3.PNG" >
+            <img src="images/SLIDESHOW3.PNG" alt="image" >
         </div>
     
         <div class="fade">
-            <img src="images/FREE DELIVERY.jpg" >
+            <img src="images/FREE DELIVERY.jpg" alt="image">
         </div>
     
          
@@ -189,7 +189,7 @@ function showSlides(n) {
 		<div class="product-item">
 			<form method="post" action="cart.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>" >
                         <form method="post" action="account.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
-			<div class="product-image"><img src="<?php echo $product_array[$key]["image"]; ?>"></div>
+			<div class="product-image"><img src="<?php echo $product_array[$key]["image"]; ?>" alt="image"></div>
 			<div class="product-tile-footer">
 			<div class="product-title"><?php echo $product_array[$key]["name"]; ?></div> 
                         <div class="product-desc"><?php echo $product_array[$key]["description"]; ?></div> 

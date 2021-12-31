@@ -121,7 +121,7 @@ Begin Date - Sept 21 - 2021
 </HEAD>
 <BODY>
  <div class="header">
-    <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+    <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
             <nav class="header-left">
                 <a  href="index.php">Home</a>
@@ -137,7 +137,7 @@ Begin Date - Sept 21 - 2021
                     </div>
                
                <a href="contact.php">Contact</a>
-               <a class="active" href="aboutus.php"><b> About us </a></b>
+               <a class="active" href="aboutus.php"><b> About </a></b>
                <a href="feedback.php">Feedback</a>   
                    
              </nav>
@@ -207,7 +207,7 @@ Begin Date - Sept 21 - 2021
                  </div>
             
             <div class="image-section">
-                <img src="images/me.png">
+                <img src="images/me.png" alt="image">
             </div>
             
     </div> 

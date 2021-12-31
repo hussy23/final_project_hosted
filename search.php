@@ -40,7 +40,7 @@ function filter($query)
 </HEAD>
 <BODY>
     <div class="header">
-    <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+    <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
             <nav class="header-left">
                 <a  href="index.php">Home</a>
@@ -56,7 +56,7 @@ function filter($query)
                     </div>
                     
                     <a href="contact.php">Contact</a>
-                    <a href="aboutus.php"> About us </a>
+                    <a href="aboutus.php"> About </a>
                     <a href="feedback.php">Feedback</a>  
                    
              </nav>
@@ -89,7 +89,7 @@ function filter($query)
         <div class="comics-item">
 			<form method="post" action="cart.php?action=add&code=<?php echo $row["code"]; ?>">
                         <form method="post" action="account.php?action=add&code=<?php echo $row["code"]; ?>">
-			<div class="product-image"><img src="<?php echo  $row["image"]; ?>"></div>
+			<div class="product-image"><img src="<?php echo  $row["image"]; ?>" alt="image"></div>
 			<div class="product-tile-footer">
                         
 			<div class="product-title"><?php echo  $row["name"]; ?></div>

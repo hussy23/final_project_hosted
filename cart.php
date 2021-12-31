@@ -60,7 +60,7 @@ switch($_GET["action"]) {
 </HEAD>
 <BODY>
     <div class="header">
-        <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+        <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
             <nav class="header-left">
                 <a  href="index.php">Home</a>
@@ -76,7 +76,7 @@ switch($_GET["action"]) {
                     </div>
                 
                <a href="contact.php">Contact</a>
-               <a href="aboutus.php" > About us </a>
+               <a href="aboutus.php" > About </a>
                <a href="feedback.php" >Feedback</a>  
                    
              </nav>
@@ -104,6 +104,7 @@ if(isset($_SESSION["cart_item"])){
     $total_price = 0;
 ?>	
 <table class="tablecart" cellpadding="8" cellspacing="2">
+<comment>comics</comment>
 <tbody>
 <tr>
 

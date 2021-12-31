@@ -25,7 +25,7 @@ Begin Date - Sept 21 - 2021
 <body>
  
     <div class="header">
-    <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>  
+    <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>  
             <nav class="header-left">
                 <a  href="index.php" >Home</a>
                 
@@ -41,7 +41,7 @@ Begin Date - Sept 21 - 2021
                     </div>
                
                <a href="contact.php">Contact</a>
-               <a href="aboutus.php" > About us </a>
+               <a href="aboutus.php" > About </a>
                <a href="feedback.php" >Feedback</a> 
                    
              </nav>
@@ -129,7 +129,7 @@ input[type=text]:focus, input[type=password]:focus, input [type=email]:focus {
     <body>
       
        <div class="login">
-           <img src="images/LOGIN.png"> 
+           <img src="images/LOGIN.png" alt="image"> 
            <h1> LOGIN </h1>
            <p style="text-align:center; font-weight:bold"><em>Don't have an account?<br> Click <a href="reg.php"> SignUp </a> </em> </p>
             <form action="login.php" method="POST">

@@ -19,7 +19,7 @@ $db_handle = new DBController();
 </HEAD>
 <BODY>
     <div class="header">
-         <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+         <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
              <nav class="header-left">
                 <a  href="index.php">Home</a>
@@ -34,7 +34,7 @@ $db_handle = new DBController();
                     </div>
                     
                     <a href="contact.php">Contact</a>
-                    <a href="aboutus.php"> About us </a>
+                    <a href="aboutus.php"> About </a>
                     <a href="feedback.php">Feedback</a>   
                    
              </nav>
@@ -70,7 +70,7 @@ $db_handle = new DBController();
 		<div class="product-item">
 			<form method="post" action="cart.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
                         <form method="post" action="account.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
-			<div class="product-image"><img src="<?php echo $product_array[$key]["image"]; ?>"></div>
+			<div class="product-image"><img src="<?php echo $product_array[$key]["image"]; ?>" alt="image"></div>
 			<div class="product-tile-footer">
 			<div class="product-title"><?php echo $product_array[$key]["name"]; ?></div>
                         <div class="product-desc" style="font-weight:bold; font-style: oblique"><?php echo "*conditions apply"."<br>". $product_array[$key]["description"]; ?></div>

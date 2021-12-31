@@ -243,7 +243,7 @@ input[type=text]:focus, input[type=password]:focus, input [type=email]:focus {
 <?php endif ?>
         
     <div class="header">
-    <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+    <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
     <div class="header-left">
     <a  href="index.php">Home <i class style="margin-left:80px"></i></a>
     </div>
@@ -279,6 +279,7 @@ if(isset($_SESSION["cart_item"])){
         <br></h2>
 
 <table class="cartt" cellpadding="4" cellspacing="2">
+<comment>comics</comment>
 <tbody>
 <tr>
 <th style="text-align:left; text-decoration:underline; font-size:25px">Name</th>

@@ -88,7 +88,7 @@ h1{
 </head>
     <body>
     <div class="header">
-        <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+        <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
             <nav class="header-left">
                 <a class="active" href="index.php">Home</a>
@@ -106,7 +106,7 @@ h1{
                     </div>
                
                <a href="contact.php">Contact</a>
-               <a href="aboutus.php" > About us </a>
+               <a href="aboutus.php" > About </a>
                <a href="feedback.php">Feedback</a>  
                    
              </nav>
@@ -134,7 +134,7 @@ h1{
 
        <div class="delete">
            <br>
-           <img src="images/LOGIN.png"> 
+           <img src="images/LOGIN.png" alt="image"> 
            <h1> DELETE ACCOUNT </h1>
           
             <form action="delete.php" method="POST">

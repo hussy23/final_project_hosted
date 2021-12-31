@@ -76,7 +76,7 @@ input[type=text]:focus {
     <body>
         
          <div class="forgotpass">
-           <img src="images/LOGIN.png"> <br>
+           <img src="images/LOGIN.png" alt="image"> <br>
            <h1> RESET USERNAME/PASSWORD </h1>
            WE WILL SEND YOU INSTRUCTIONS TO RESET YOUR USERNAME/PASSWORD <br> <br>
             <form action="fpemail.php" method="POST">
