@@ -49,6 +49,7 @@ switch($_GET["action"]) {
 }
 }
 ?>
+<!DOCTYPE html>
 <HTML>
 <HEAD>
      <link rel="stylesheet" href="style.css">
