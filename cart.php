@@ -105,6 +105,7 @@ if(isset($_SESSION["cart_item"])){
     $total_price = 0;
 ?>	
 <table class="tablecart" cellpadding="8" cellspacing="2">
+<caption>comics</caption>
 <tbody>
 <tr>
 
