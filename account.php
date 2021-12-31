@@ -245,7 +245,7 @@ input[type=text]:focus, input[type=password]:focus, input [type=email]:focus {
     <div class="header">
     <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
     <div class="header-left">
-    <a  href="index.php">Home <i class style="margin-left:80px"></i></a>
+    <a  href="index.php">Home <em class style="margin-left:80px"></em></a>
     </div>
           
       <?php  if (isset($_SESSION['username'])) : ?>
@@ -275,7 +275,7 @@ if(isset($_SESSION["cart_item"])){
 <h2 style="text-align:center; font-family:Impact, Charcoal, sans-serif; text-decoration:underline; "> YOUR CART DETAILS
 <div class="edit">
     <a href="cart.php">
-        <i class="fa fa-arrow-circle-left"> Edit Cart?  </i> </a>
+        <em class="fa fa-arrow-circle-left"> Edit Cart?  </em> </a>
         <br></h2>
 
 <table class="cartt" cellpadding="4" cellspacing="2">
@@ -314,7 +314,7 @@ if(isset($_SESSION["cart_item"])){
   <?php
 } else {
 ?>
-<div class="emptycart"> <i class="fa fa-exclamation" style="color:red"> Your Cart is Empty </i> </div>
+<div class="emptycart"> <em class="fa fa-exclamation" style="color:red"> Your Cart is Empty </em> </div>
 <?php 
 }
 ?>
@@ -327,17 +327,17 @@ if(isset($_SESSION["cart_item"])){
           <div class="row">
           <div class="column">
             <h2 class="billing">Billing Address</h2>
-            <i class="fa fa-user"></i> Full Name <br>
+            <em class="fa fa-user"></em> Full Name <br>
                 <input type="text" id="fullname" name="fullname" placeholder="Full name" required> <br>
-            <i class="fa fa-envelope"></i> Email <br>
+            <em class="fa fa-envelope"></em> Email <br>
                 <input type="email" name="email" placeholder="Enter your email" value="<?php echo $email; ?>"required> <br>
-            <i class="fa fa-address-card-o"></i> Address <br>
+            <em class="fa fa-address-card-o"></em> Address <br>
                 <input type="text" id="adr" name="address" required> <br>
-            <i class="fa fa-globe"></i> Country <br>
+            <em class="fa fa-globe"></em> Country <br>
                 <input type="text" id="country" name="country" value="Sri Lanka" readonly><br>
-            <i class="fa fa-phone"></i> Mobile Number <br>
+            <em class="fa fa-phone"></em> Mobile Number <br>
             <input type="text" id="phonefield"  value="" name="phone" maxlength="10" onkeyup=" return validatephone(this.value); " required/> <br>
-            <i class="fa fa-institution"></i> City <br>
+            <em class="fa fa-institution"></em> City <br>
                 <input type="text" id="city" name="city" placeholder="Dehiwela" required><br>
             Zip <br>
                 <input type="text" id="zip" name="zip" maxlength="5" required><br>
@@ -349,13 +349,13 @@ if(isset($_SESSION["cart_item"])){
             <h2 class="billing">Payment Details</h2>
              Accepted Cards
              <div class="icon-container">
-               <i class="fa fa-cc-visa" style="color:navy;"></i>
-               <i class="fa fa-cc-mastercard" style="color:red;"></i>
-               <i class="fa fa-cc-paypal" style="color:darkslateblue;"></i>
+               <em class="fa fa-cc-visa" style="color:navy;"></em>
+               <em class="fa fa-cc-mastercard" style="color:red;"></em>
+               <em class="fa fa-cc-paypal" style="color:darkslateblue;"></em>
             </div>
-            <i class="fa fa-credit-card-alt"></i> Name on Card <br>
+            <em class="fa fa-credit-card-alt"></em> Name on Card <br>
             <input type="text" id="cname" name="cardname" required> <br>
-            <i class="fa fa-credit-card-alt"></i> Credit card number <br>
+            <em class="fa fa-credit-card-alt"></em> Credit card number <br>
             <input type="text" id="ccnum" name="cardnumber"  maxlength="16"   required> <br>
             Expiry Month<br>
              <select name = "months"  required>
@@ -411,15 +411,15 @@ if(isset($_SESSION["cart_item"])){
  <div class="footer">
         <div class="footer-left">
                 
-        <a href="https://www.google.com/maps/d/edit?mid=1HqXfCxWrmokna6IfjvKOA2PTFogndeJ1&usp=sharing" target="_blank"><i class="fa fa-map-marker" style=" font-size:15px"> </i> No. 7 Ridgewayplace, Colombo 04 <br> </a>
-            <i class="fa fa-phone-square" style=" font-size:15px"> </i> 011-123-1234 <br> 
-            <i class="fa fa-mobile" style="font-size:20px"></i> 0771234567 <br>
-            <a href="mailto:dc.vs.marvel000@gmail.com" target="_blank">  <i class="fa fa-envelope" style=" font-size:15px"></i> dc.vs.marvel000@gmail.com  </a>        </div>
+        <a href="https://www.google.com/maps/d/edit?mid=1HqXfCxWrmokna6IfjvKOA2PTFogndeJ1&usp=sharing" target="_blank"><em class="fa fa-map-marker" style=" font-size:15px"> </em> No. 7 Ridgewayplace, Colombo 04 <br> </a>
+            <em class="fa fa-phone-square" style=" font-size:15px"> </em> 011-123-1234 <br> 
+            <em class="fa fa-mobile" style="font-size:20px"></em> 0771234567 <br>
+            <a href="mailto:dc.vs.marvel000@gmail.com" target="_blank">  <em class="fa fa-envelope" style=" font-size:15px"></em> dc.vs.marvel000@gmail.com  </a>        </div>
         
         <div class="footer-center">
-        <a href="https://www.facebook.com/TheMarvelvsDc/" target="_blank"><i class="fa fa-facebook-official" style="color:blue; font-size:40px"></i></a> 
-        <a href="https://www.instagram.com/themarvelvsdc/?hl=en" target="_blank"> <i class="fa fa-instagram" style="color:magenta; font-size:40px"></i> </a> 
-          <a href="https://twitter.com/TheMarvelvsDC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter-square" style="color:#00acee; font-size:40px" ></i> </a>  
+        <a href="https://www.facebook.com/TheMarvelvsDc/" target="_blank"><em class="fa fa-facebook-official" style="color:blue; font-size:40px"></em></a> 
+        <a href="https://www.instagram.com/themarvelvsdc/?hl=en" target="_blank"> <em class="fa fa-instagram" style="color:magenta; font-size:40px"></em> </a> 
+          <a href="https://twitter.com/TheMarvelvsDC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><em class="fa fa-twitter-square" style="color:#00acee; font-size:40px" ></em> </a>  
                 <br>
              </a>  <br>
              &copy;2021-2025 copyright by DC vs MARVEL<br>
@@ -430,10 +430,10 @@ if(isset($_SESSION["cart_item"])){
         <div class="footer-right">
             
             <H6> PAYMENT METHODS </H6>
-            <a href="https://www.visa.com.lk/pay-with-visa/contactless-payments/contactless-payments.html" target="_blank"> <i class="fa fa-cc-visa" style=" font-size:50px; color:navy;"></i></a>
-            <a href="https://src.mastercard.com/profile/enroll" target="_blank"><i class="fa fa-cc-mastercard"  style=" font-size:50px; color:red"></i></a>
-            <a href="https://www.paypal.com/lk/webapps/mpp/pay-online" target="_blank"> <i class="fa fa-cc-paypal"  style=" font-size:50px; color:darkslateblue"></i></a> <br> <br>
-            <i class="fa fa-motorcycle" style=" font-size:20px"> Free Delivery Island-wide!</i> <br>
+            <a href="https://www.visa.com.lk/pay-with-visa/contactless-payments/contactless-payments.html" target="_blank"> <em class="fa fa-cc-visa" style=" font-size:50px; color:navy;"></em></a>
+            <a href="https://src.mastercard.com/profile/enroll" target="_blank"><em class="fa fa-cc-mastercard"  style=" font-size:50px; color:red"></em></a>
+            <a href="https://www.paypal.com/lk/webapps/mpp/pay-online" target="_blank"> <em class="fa fa-cc-paypal"  style=" font-size:50px; color:darkslateblue"></em></a> <br> <br>
+            <em class="fa fa-motorcycle" style=" font-size:20px"> Free Delivery Island-wide!</em> <br>
            
         </div>
         
