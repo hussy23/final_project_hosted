@@ -26,7 +26,7 @@ $db_handle = new DBController();
 </HEAD>
 <BODY>
     <div class="header">
-    <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+    <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="main logo on header" >  </a>
   
             <nav class="header-left">
                 <a  href="index.php">Home</a>
