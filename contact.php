@@ -95,7 +95,7 @@ h2{
     
 
    <div class="header">
-   <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+   <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
             <nav class="header-left">
                 <a  href="index.php">Home</a>
@@ -152,7 +152,7 @@ h2{
         </div>
         </div>
                 <div class="card">
-                    <img src="images/socialmedia.png">
+                    <img src="images/socialmedia.png" alt="image">
                      <h2>Follow Us On</h2>
                      <a href="https://www.facebook.com/TheMarvelvsDc/" target="_blank"><em class="fa fa-facebook-official" style="color:blue; font-size:40px"></em> FaceBook</a> <br>
                      <a href="https://www.instagram.com/themarvelvsdc/?hl=en" target="_blank"> <em class="fa fa-instagram" style="color:magenta; font-size:40px"></em> Instagram </a> <br>

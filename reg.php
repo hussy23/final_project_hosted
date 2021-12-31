@@ -99,7 +99,7 @@ a {
 </html>
 <body>
     <div class="header">
-    <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+    <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
             <nav class="header-left">
                 <a href="index.php" >Home</a>

@@ -60,7 +60,7 @@ $db_handle = new DBController();
 <body>
  
     <div class="header">
-        <a class="logo" href="index.php"> <img src="images/logo.jpg">  </a>
+        <a class="logo" href="index.php"> <img src="images/logo.jpg" alt="image">  </a>
   
             <nav class="header-left">
                 <a class="active" href="index.php"><strong>Home</a></strong>
@@ -109,23 +109,23 @@ $db_handle = new DBController();
 <div class="slideshow">
     <h4>Special Offers and Discounts!</h4>
         <div class="fade">
-            <img src="images/DISCOUNTS.jpg">
+            <img src="images/DISCOUNTS.jpg" alt="image">
         </div> 
         
         <div class="fade">
-            <img src="images/SLIDESHOW1.PNG" >
+            <img src="images/SLIDESHOW1.PNG" alt="image">
         </div>
     
         <div class="fade">
-            <img src="images/SLIDESHOW2.PNG">
+            <img src="images/SLIDESHOW2.PNG" alt="image">
         </div>
     
         <div class="fade">
-            <img src="images/SLIDESHOW3.PNG" >
+            <img src="images/SLIDESHOW3.PNG" alt="image">
         </div>
     
         <div class="fade">
-            <img src="images/FREE DELIVERY.jpg" >
+            <img src="images/FREE DELIVERY.jpg" alt="image">
         </div>
     
          
