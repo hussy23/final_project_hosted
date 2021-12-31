@@ -74,7 +74,7 @@ $db_handle = new DBController();
 		<div class="product-item">
 			<form method="post" action="cart.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
                         <form method="post" action="account.php?action=add&code=<?php echo $product_array[$key]["code"]; ?>">
-			<div class="product-image"><img src="<?php echo $product_array[$key]["image"]; ?>"></div>
+			<div class="product-image"><img src="<?php echo $product_array[$key]["image"]; ?>" alt ="image"></div>
 			<div class="product-tile-footer">
 			<div class="product-title"><?php echo $product_array[$key]["name"]; ?></div>
                         <div class="product-desc"><?php echo $product_array[$key]["description"]; ?></div>

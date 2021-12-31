@@ -89,7 +89,7 @@ function filter($query)
         <div class="comics-item">
 			<form method="post" action="cart.php?action=add&code=<?php echo $row["code"]; ?>">
                         <form method="post" action="account.php?action=add&code=<?php echo $row["code"]; ?>">
-			<div class="product-image"><img src="<?php echo  $row["image"]; ?>"></div>
+			<div class="product-image"><img src="<?php echo  $row["image"]; ?>" alt ="image"></div>
 			<div class="product-tile-footer">
                         
 			<div class="product-title"><?php echo  $row["name"]; ?></div>
