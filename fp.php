@@ -82,7 +82,7 @@ input[type=text]:focus {
             <form action="fpemail.php" method="POST">
                 
                 <div class="forgotpassdetails">
-                    <strong>Enter Your Registered Email </b> <input type="email" name="email" placeholder="Email" required> 
+                    <strong>Enter Your Registered Email </strong> <input type="email" name="email" placeholder="Email" required> 
                     <button type="submit" class="sendbtn" value ="send"> SEND </button>
                     <a href="login.php" button type="submit"  class="sendbtn" value ="Back" > BACK </a></button>
                 </div>

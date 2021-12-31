@@ -32,7 +32,7 @@ $db_handle = new DBController();
             <nav class="header-left">
                 <a  href="index.php">Home</a>
                      <div class="dropdown">
-                <a class="active" href="DC.php"><strong>DC</a></b>
+                <a class="active" href="DC.php"><strong>DC</a></strong>
                     <div class="dropdown-options">
                       <a href="MARVEL.php"> MARVEL </a>
                       <a href="comicsoffer.php"> Offers</a>

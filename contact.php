@@ -111,7 +111,7 @@ h2{
                     </div> 
                     </div>
                
-               <a class="active" href="contact.php"><strong>Contact</a></b>
+               <a class="active" href="contact.php"><strong>Contact</a></strong>
                <a href="aboutus.php" > About </a>
                <a href="feedback.php" >Feedback</a>   
                    
@@ -164,7 +164,7 @@ h2{
                     <h2>Contact Us</h2>
                     
                     For more details call us: <br>
-                    <em class="fa fa-phone-square" style=" font-size:15px"> </em> 011-123-1234 <br> </b>
+                    <em class="fa fa-phone-square" style=" font-size:15px"> </em> 011-123-1234 <br> </strong>
                     <em class="fa fa-mobile" style="font-size:20px"></em> 0771234567 <br> <br>
                     Or Email us on : <em class="fa fa-envelope" style=" font-size:15px"> </em> dc.vs.marvel000@gmail.com
                     
