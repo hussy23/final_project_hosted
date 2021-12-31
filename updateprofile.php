@@ -32,7 +32,7 @@ h1{
 .register {
   padding-left: 100px;
   padding-right:100px;
-  background-color: #WHITE;
+  background-color: WHITE;
   width: 670px;
   height: 770px;
   text-align:left;

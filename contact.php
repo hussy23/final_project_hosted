@@ -143,7 +143,7 @@ h2{
         <div class="leftcolumn">
             <div class="card">
                 <h2>VISIT US AT</h2>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1HqXfCxWrmokna6IfjvKOA2PTFogndeJ1&ehbc=2E312F" width="750" height="480"></iframe><br>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1HqXfCxWrmokna6IfjvKOA2PTFogndeJ1&ehbc=2E312F" title="Navigation menu" width="750" height="480"></iframe><br>
                 <em>Open Daily From 9am -10pm except on Poya Days and Special Holidays! </em>
             </div>
             
